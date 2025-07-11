@@ -45,8 +45,8 @@ nav, p, section, article {
   text-decoration: none;
 }
 .socialmedia img {
-  width: auto; /* Adjust size as needed */
-  height: 48px; /* Adjust size as needed */ 
+  width: 64px; /* Adjust size as needed */
+  height: 64px; /* Adjust size as needed */ 
 }
 
 /* Hero Section */
