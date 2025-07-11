@@ -33,8 +33,20 @@ nav, p, section, article {
   padding: 8px;
 }
 
+.socialmedia {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px; /* Space between social media icons */
+  margin-top: 8px;
+}
+  
 .socialmedia a {
   text-decoration: none;
+}
+.socialmedia img {
+  width: auto; /* Adjust size as needed */
+  height: 48px; /* Adjust size as needed */ 
 }
 
 /* Hero Section */
