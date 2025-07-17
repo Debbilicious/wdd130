@@ -19,7 +19,7 @@ body {
 }
 
 header, main, footer {
-  max-width: 840px; 
+  max-width: 840px; /* Max width for better responsiveness */
   margin: 0 auto;
 }
 
@@ -104,67 +104,67 @@ nav ul li a:hover {
 }
 
 .history h2 {
-  margin-bottom: 20px; 
+  margin-bottom: 20px; /* Space between heading and content */
 }
 
 .history-content {
   display: flex;
-  justify-content: space-between; 
-  flex-wrap: wrap; 
+  justify-content: space-between; /* Align text and image */
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
   gap: 20px;
 }
 
 .history-content p {
-  width: 48%; 
+  width: 48%; /* Let the paragraphs occupy space beside the image */
   text-align: left;
   margin: 0;
 }
 
 .history-content img {
-  width: 48%; 
+  width: 48%; /* Adjust image width */
   height: auto;
-  float: left; 
-  margin-right: 20px;
-  margin-bottom: 20px; 
+  float: left; /* Allow text to wrap around */
+  margin-right: 20px; /* Space between image and text */
+  margin-bottom: 20px; /* Space at the bottom */
 }
 
-/* Adventure Section */
+/* Adventure Section - Positioning the "Adventure Awaits You!" Heading */
 .adventure-section {
   position: relative;
-  margin-top: 50px; 
+  margin-top: 50px; /* Adjust space between Adventure and other sections */
 }
 
 .adventure-section h2 {
   position: absolute;
-  top: 20px; 
-  left: 50%; 
-  transform: translateX(-50%); 
-  background-color: rgba(255, 255, 255, 0.7); 
+  top: 20px; /* Adjust vertical position from the top */
+  left: 50%; /* Center the heading horizontally */
+  transform: translateX(-50%); /* Correct centering of the heading */
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
   padding: 10px;
   font-size: 2rem;
-  color: var(--primary-color); 
-  width: 100%; 
+  color: var(--primary-color); /* Customize with your desired color */
+  width: 100%; /* Make the heading span the entire width */
   text-align: center;
-  opacity: 0.8; 
+  opacity: 0.8; /* Make the heading slightly transparent */
 }
 
 .adventure-gallery {
   display: flex;
   gap: 20px;
-  justify-content: center; 
-  flex-wrap: nowrap; 
-  margin-top: 60px; 
+  justify-content: center; /* Center the images */
+  flex-wrap: nowrap; /* Prevent images from wrapping to the next line */
+  margin-top: 60px; /* Adjust spacing from the heading */
 }
 
 .adventure-gallery figure {
-  flex: 0 0 auto; 
+  flex: 0 0 auto; /* Maintain natural size for figures */
   text-align: center;
 }
 
 .adventure-gallery img {
   width: 100%;
   height: auto;
-  max-width: 200px; 
+  max-width: 200px; /* Limit the image width */
   border-radius: 4px;
 }
 
