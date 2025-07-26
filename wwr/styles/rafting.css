@@ -1,3 +1,4 @@
+/* css for rafting website */
 :root {
   --primary-color: #3F88C5; /* Steel Blue */
   --secondary-color: #A9FFF7; /* Ice Blue */
@@ -192,7 +193,7 @@ h1, h2 {
 .radio-group label{
   display: block;
   margin-bottom: 0.5rem;
- font-size: 400;
+ font-weight: 400;
   color: #333;
   
 }
