@@ -189,11 +189,16 @@ h1, h2 {
   margin-bottom: 0.5rem;
 }
 
-.radio-group {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  margin-bottom: 1rem;
+.radio-group label{
+  display: block;
+  margin-bottom: 0.5rem;
+ font-size: 400;
+  color: #333;
+  
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 0.5rem;
 }
 
 
