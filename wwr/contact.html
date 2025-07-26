@@ -28,6 +28,7 @@
   </header>
   
   <main>
+    <h1>Contact Us</h1>
   <section class="contact-info">
     <h2>Contact Information</h2>
     <p><strong>Address:</strong> 10 Waterfront Road, Lagoon Side, Lagos</p>
@@ -37,7 +38,7 @@
     <!-- Embedded Google Map -->
     <iframe 
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15859.826707580716!2d3.394222432532465!3d6.399584271594706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8a9f43f67a2b%3A0x3c9fcc0519923021!2sLagos%20Lagoon!5e0!3m2!1sen!2sng!4v1753552549729!5m2!1sen!2sng"
-      width="100%" height="300" 
+      width="100" height="300" 
       allowfullscreen="" loading="lazy"
       referrerpolicy="no-referrer-when-downgrade">
     </iframe>
@@ -61,28 +62,35 @@
     </div>
   </section>
 
-  <section class="contact-form">
-    <h2>Send Us a Message</h2>
-    <form action="#" method="post">
-      <label for="name">Full Name:</label>
-      <input type="text" id="name" name="name" required>
+<section class="contact-form">
+  <h2>Send Us a Message</h2>
+  <form action="#" method="post">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
 
-      <label for="email">Email Address:</label>
-      <input type="email" id="email" name="email" required>
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
 
-      <p>Purpose of Message:</p>
-      <label><input type="radio" name="purpose" value="general" required> General Inquiry</label><br>
-      <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label><br>
-      <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label><br>
+    <p id="purpose-title">Purpose of Message:</p>
 
-      <label for="message">Your Message:</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
+    <input type="radio" id="general" name="purpose" value="general" required>
+    <label for="general">General Inquiry</label><br>
 
-      <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label><br>
+    <input type="radio" id="reservation" name="purpose" value="reservation">
+    <label for="reservation">Reservation Question</label><br>
 
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
+    <input type="radio" id="suggestion" name="purpose" value="suggestion">
+    <label for="suggestion">Website Suggestion</label><br>
+
+    <label for="message">Your Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <input type="checkbox" id="subscribe" name="subscribe">
+    <label for="subscribe">Please subscribe me to the monthly newsletter</label><br>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
 </main>
 
   <footer>
