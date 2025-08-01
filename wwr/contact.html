@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact Us</title>
+  <title>White Water Rafting | Contact Us</title>
   <meta name="description" content="Reach out to White Water Rafting for questions about our trips, make reservations, or provide website suggestions. Find our contact details and a form here." />
   <meta name="author" content="Okolocha Deborah Udoka" />
 
@@ -14,10 +14,10 @@
   <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
-<body class="contact-page">
-  <header>
-    <img src="images/rafting-logo.jpg" alt="Rafting Company Logo" />
-    <nav>
+<body>
+  <header class="site-header">
+    <img src="images/rafting-logo.jpg" alt="Rafting Company Logo" class="logo" />
+    <nav class="main-nav">
       <a href="index.html">Home</a>
       <a href="about.html">About Us</a>
       <a href="trips.html">Trips</a>
@@ -25,11 +25,11 @@
     </nav>
   </header>
 
-  <main>
-    <section class="company-info-section">
-      <h2>CONTACT US</h2>
-      <div class="contact-details-map">
-        <div class="details">
+  <main class="main-content">
+    <section class="section-container">
+      <h1 class="page-title">CONTACT US</h1>
+      <div class="contact-details-grid">
+        <div class="contact-info">
           <p><strong>Address:</strong> 10 Waterfront Road, Lagoon Side, Lagos, Nigeria</p>
           <p><strong>Phone:</strong> +234 803 000 1234</p>
           <p><strong>Email:</strong> contact-ng@raftingcompany.com</p>
@@ -37,31 +37,31 @@
         <div class="map-container">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15858.749557476532!2d3.37683935!3d6.444369799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b1a2c3a3b5b%3A0x103b8b1a2c3a3b5b!2sLagos%2C%20Nigeria!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
                   width="400" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
+        </div>
       </div>
     </section>
 
-    <section class="employee-profiles">
-      <h2>MEET OUR TEAM</h2>
-      <div class="profiles">
-        <figure>
+    <section class="section-container">
+      <h2 class="page-title">MEET OUR TEAM</h2>
+      <div class="employee-profiles-grid">
+        <figure class="employee-profile">
           <img src="images/employee1.jpg" alt="Smiling team member: Customer Support">
-          <figcaption>Customer Support </figcaption>
+          <figcaption>Customer Support</figcaption>
         </figure>
-        <figure>
+        <figure class="employee-profile">
           <img src="images/employee2.jpg" alt="Smiling team member: Head Tour Guide">
           <figcaption>Tour Guide</figcaption>
         </figure>
-        <figure>
+        <figure class="employee-profile">
           <img src="images/employee3.jpg" alt="Smiling team member: Safety Coordinator">
           <figcaption>Safety Coordinator</figcaption>
         </figure>
-        </div>
+      </div>
     </section>
 
-    <section class="contact-form-section">
-      <h2>SEND US A MESSAGE</h2>
-      <form action="#" method="post">
+    <section class="section-container">
+      <h2 class="page-title">SEND US A MESSAGE</h2>
+      <form action="#" method="post" class="contact-form">
         <div class="form-group">
           <label for="fullname">Full Name:</label>
           <input type="text" id="fullname" name="fullname" required>
@@ -72,7 +72,7 @@
           <input type="email" id="email" name="email" required>
         </div>
 
-        <fieldset class="purpose-of-message">
+        <fieldset class="form-fieldset">
           <legend>Purpose of Message:</legend>
           <div class="radio-group">
             <input type="radio" id="general-inquiry" name="purpose" value="general_inquiry" required>
@@ -98,30 +98,27 @@
           <label for="subscribe">please subscribe me to the monthly newsletter</label>
         </div>
 
-        <button type="submit" class="button-submit">Send Message</button>
+        <button type="submit" class="submit-button">Send Message</button>
       </form>
     </section>
-
   </main>
 
-  <footer>
-    <p>© 2025 🛶 White Water Rafting 🛶 | Okolocha Deborah</p>
-    <p class="wireframe-link">
-      <a href="https://app.moqups.com/KYwXsy5mdClFUY8inAET9qpQVCgwGV3B/edit/page/ad64222d5" target="_blank">
-        View Contact Us Wireframe
-      </a>
-    </p>
-    <nav class="socialmedia">
+  <footer class="site-footer">
+    <p class="footer-text">© 2025 🛶 White Water Rafting 🛶 | Okolocha Deborah</p>
+    <a href="https://app.moqups.com/KYwXsy5mdClFUY8inAET9qpQVCgwGV3B/edit/page/ad64222d5" target="_blank" class="wireframe-link">
+      View Contact Us Wireframe
+    </a>
+    <div class="social-icons">
       <a href="https://facebook.com" target="_blank">
-        <img src="images/facebook.png" alt="Follow us on Facebook" />
+        <img src="images/facebook.png" alt="Follow us on Facebook" class="social-icon" />
       </a>
       <a href="https://twitter.com" target="_blank">
-        <img src="images/twitter.png" alt="Follow us on Twitter" />
+        <img src="images/twitter.png" alt="Follow us on Twitter" class="social-icon" />
       </a>
       <a href="https://instagram.com" target="_blank">
-        <img src="images/instagram.png" alt="Follow us on Instagram" />
+        <img src="images/instagram.png" alt="Follow us on Instagram" class="social-icon" />
       </a>
-    </nav>
+    </div>
   </footer>
 </body>
 </html>
